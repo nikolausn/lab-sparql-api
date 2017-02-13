@@ -1,0 +1,19 @@
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix schema: <http://schema.org/>
+prefix purl: <http://purl.org/library/>
+
+SELECT  ?book ?bookname ?name ?pubname ?pubplacename
+WHERE
+ {
+  ?book schema:creator ?author.
+  ?book schema:name ?bookname.
+  ?author schema:name ?name.
+  ?book schema:publisher ?publisher.
+  ?publisher schema:name ?pubname.
+  ?book purl:placeOfPublication ?pubplace.
+  ?pubplace schema:name ?pubplacename.
+  VALUES( ?pubname ){
+	  ('Zhazushy')
+  }
+}

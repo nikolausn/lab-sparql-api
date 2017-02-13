@@ -1,0 +1,33 @@
+{
+	"services": {
+		"dcWSfetch": {
+			"getItems": {
+				"parentMethod": "http://localhost:8080/dcWSfetch/getDescription",
+				"frame": "http://acbres224.ischool.illinois.edu/dcWSfetch_resources/WorksetFrameItems.jsonld",								
+				"required": [
+					"id"
+				],
+				"optional": [
+
+				]
+			},
+			"getDescription": {
+				"context": "http://acbres224.ischool.illinois.edu/dcWSfetch_resources/WorksetContext.jsonld",
+				"required": [
+					"id"
+				],
+				"optional": [
+
+				]
+			},
+			"list": {
+				"context": "http://acbres224.ischool.illinois.edu/dcWSfetch_resources/WorksetContext.jsonld",
+				"required": [
+					"vis"
+				],
+				"optional": [
+				]
+			}
+		}
+	}
+}

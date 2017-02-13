@@ -1,0 +1,35 @@
+{
+	"services": [
+		{
+			"serviceName": "dcWSfetch",
+			"serviceMethods": [
+				{
+					"name": "getItems",
+					"parameters": [
+						{
+							"name": "id",
+							"required": true
+						},
+						{
+							"name": "output",
+							"required": true
+						}
+					]
+				},
+				{
+					"name": "getDescription",
+					"parameters": [
+						{
+							"name": "id",
+							"required": true
+						},
+						{
+							"name": "output",
+							"required": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

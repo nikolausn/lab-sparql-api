@@ -1,0 +1,35 @@
+{
+	"services": {
+		"dcWSfetch": {
+			"resources": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/",
+			"limit": 9500,
+			"all": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/all.sparql"
+			},
+			"authorname": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/authorname.sparql"
+			},
+			"countall": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/countall.sparql"
+			},
+			"countallauthor": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/countallauthor.sparql"
+			},
+			"countgroupauthor": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/countgroupauthor.sparql"
+			},
+			"countgrouppubname": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/countgrouppubname.sparql"
+			},
+			"countgrouppubplace": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/countgrouppubplace.sparql"
+			},
+			"pubname": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/pubname.sparql"
+			},
+			"pubplacename": {
+				"query": "http://acbres225.ischool.illinois.edu/dcWSfetch_resources/sparql/dcWSfetch/pubplacename.sparql"
+			}
+		}
+	}
+}
